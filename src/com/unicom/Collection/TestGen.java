@@ -17,7 +17,7 @@ public class TestGen {
     GenStudent<String> stu = new GenStudent<String>("100", "100");
     System.out.println(stu.javaScorce);
     stu.printStr(new Date());
-    System.out.println(stu.printStr1("abc"));;
+    System.out.println(stu.printStr1("abc"));
 
 
     Son1 son1 = new Son1();
@@ -25,10 +25,6 @@ public class TestGen {
 
     Son2<String> son2 = new Son2<String>();
     son2.test("121231");
-
-
-
-
   }
 }
 
